@@ -14,7 +14,7 @@ def reverse_each_word(sentence)
   
   words = sentence.split(" ")
   testArray = []
-  array.collect do |string|
+  testArray.collect do |string|
     testArray << string.reverse
   end
   testArray.join(" ")
