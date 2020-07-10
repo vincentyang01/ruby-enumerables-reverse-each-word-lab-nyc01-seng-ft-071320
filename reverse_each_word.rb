@@ -1,3 +1,4 @@
+require 'pry'
 sentence = "Hello there, and how are you?"
 
 def reverse_each_word(sentence)
@@ -17,5 +18,5 @@ def reverse_each_word(sentence)
     testArray << string.reverse
   end
   testArray.join(" ")
-  
+  binding.pry
 end
