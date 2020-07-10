@@ -18,5 +18,5 @@ def reverse_each_word(sentence)
     testArray << string.reverse
   end
   testArray.join(" ")
-  binding.pry
+  
 end
